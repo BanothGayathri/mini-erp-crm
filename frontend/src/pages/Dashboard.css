@@ -1,0 +1,32 @@
+.activity {
+    margin-top:40px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+
+
+.activity h2 {
+    color:#1e3a8a;
+    margin-bottom:20px;
+}
+
+
+.activity ul {
+    list-style:none;
+    padding:0;
+}
+
+
+.activity li {
+    padding:12px;
+    border-bottom:1px solid #eee;
+    color:#555;
+    font-size:16px;
+}
+
+
+.activity li:last-child {
+    border-bottom:none;
+}

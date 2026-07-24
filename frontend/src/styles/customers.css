@@ -1,0 +1,58 @@
+.customer-page{
+    padding:30px;
+    background:#f4f7fc;
+    min-height:100vh;
+}
+
+.customer-page h1{
+    color:#1e3a8a;
+}
+
+.customer-form{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:15px;
+    margin:25px 0;
+}
+
+.customer-form input{
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:8px;
+}
+
+.customer-form button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.customer-form button:hover{
+    background:#1d4ed8;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+th{
+    background:#2563eb;
+    color:white;
+    padding:15px;
+}
+
+td{
+    padding:15px;
+    border-bottom:1px solid #eee;
+}
+
+tr:hover{
+    background:#f7f9fc;
+}
