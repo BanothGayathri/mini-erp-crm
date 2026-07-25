@@ -120,7 +120,6 @@ export const getCustomersPagination = async (
   }
 };
 import { Router } from "express";
-import prisma from "../config/prisma";
 
 const router = Router();
 
